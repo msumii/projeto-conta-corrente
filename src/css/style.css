@@ -1,0 +1,230 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 800px;
+}
+
+.header .linha {
+    background-color: #1074AC;
+    width: 100%;
+    height: 5px;
+}
+
+.header .items-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: 30px 0 30px 20px;
+    font-size: 24px;
+    color: #1B1B1B;
+}
+
+.header .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 36px 20px 36px 0;
+}
+
+.header .menu .linha-1 {
+    background-color: #1B1B1B;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 6px;
+}
+
+.header .menu .linha-2 {
+    background-color: #1B1B1B;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 6px;
+}
+
+.header .menu .linha-3 {
+    background-color: #1B1B1B;
+    width: 25px;
+    height: 2px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .saldo {
+    background-color: #FFF;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 0.5px rgba(114, 114, 114, 0.25);
+}
+
+.main .saldo h2{
+    margin-left: 20px;
+    color: #1B1B1B;
+}
+
+.main .saldo .ocultar{
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.main .botoes {
+    background-color: #FFF;
+    width: 90%;
+    height: 110px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 1px 0.5px rgba(114, 114, 114, 0.25);
+}
+
+.main .botoes .botao {
+    width: 57.5px;
+    height: 75.5px;
+    text-align: center;
+}
+
+.main .botoes .botao .botao-forma {
+    background-color: #1074AC;
+    width: 57.5px;
+    height: 57.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.botao .botao-forma .icone {
+    width: 24px;
+    height: 24px;
+    color: #051775;
+}
+
+.botao p {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #414B50;
+}
+
+.transacoes-recentes{
+    width: 90%;
+    height: 100vh;
+}
+
+.transacoes-recentes h2{
+    margin: 0 0 10px 20px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #73828A;
+}
+
+.transacoes-recentes .transacoes{
+    background-color: #FFF;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 1px 0.5px rgba(114, 114, 114, 0.25)
+}
+
+.transacoes .transacao:first-child {
+    margin-top: 15px;
+}
+
+.transacoes .transacao:last-child {
+    margin-bottom: 15px;
+}
+
+.transacoes-recentes .transacoes .transacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transacoes .transacao .valor-origem {
+    margin-left: 20px;
+}
+
+.transacoes .separador {
+    background-color: #D1D1D1;
+    width: 90%;
+    height: 2px;
+    margin: 0 20px;
+}
+
+.transacao .valor-origem .valor {
+    display: flex;
+    align-items: center;
+}
+
+.transacao .valor-origem .valor h3 {
+    font-size: 16px;
+    color: #1B1B1B;
+}
+
+.transacoes .transacao .valor-origem p {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #7B8990;
+}
+
+
+.data-hora {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.data-hora h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B8990;
+}
+
+.data-hora p {
+    font-size: 12px;
+    color: #7B8990;
+}
+
+.saida {
+    background-color: #D9D9D9;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saida .saida-detalhe {
+    background-color: #424242;
+    width: 3px;
+    height: 1px;
+    border-radius: 1px;
+}
+
+.entrada {
+    background-color: #83FF81;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
